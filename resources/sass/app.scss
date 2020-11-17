@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+a{
+	text-decoration: none;
+}
+.text-grey-darkest{
+	color:#4a4a4a;
+}
+.container{
+	max-width:920px;
+}
